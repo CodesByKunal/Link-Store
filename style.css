@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+#main-box{
+    height: 450px;
+    width: 400px;
+    border-radius: 5px;
+}
+#savelink{
+    width: 100px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#grab-link-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#savelink:active{
+
+    transform:translateY(2px);
+}
+#savelink:hover{
+    background-color: #d3cae0;
+}
+#getlink{
+    width: 100px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bolder;
+}
+#getlink:active{
+
+    transform:translateY(2px);
+}
+#getlink:hover{
+    background-color: #d3cae0;;
+}
+#url-input{
+    border: 0px;
+    outline: none;
+    width: 372px;
+    margin: 5px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 0px 6px;
+}
+
+
+#text-desc{
+    border: 0px;
+    outline: none;
+    width: 372px;
+    margin: 5px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 0px 6px;
+    margin-top: 15px;
+}
+
+#links-store{
+  margin: 20px 10px;
+  height: 283px;
+  overflow: scroll;
+}
+.links-div{
+    margin: 6px;
+    font-size: small;
+    border: 1px solid rgb(27, 23, 23);
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #d3cae0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+.links-div:hover{
+    background-color: aliceblue;
+}
+a:hover{
+    color: rgb(3, 3, 240);
+}
+i{
+    float: right;
+    cursor: pointer;
+}
+i:active{
+    transform:translateY(2px);
+}

@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "description": "A simple way to organize your important links! ",
+    "version":"1.0",
+    "name":"Link Store",
+    "action":{
+        "default_popup":"index.html",
+        "default_icon":"bookmark.png"
+    },
+    "permissions":[
+        "tabs"
+    ]
+}
